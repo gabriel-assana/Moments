@@ -1,3 +1,7 @@
+app-moment{
+  background-color:#f8e066;
+}
+
 .moment {
     display: flex;
     flex-direction: column;
@@ -5,6 +9,7 @@
     text-align: center;
     width: 60%;
     margin: 0 auto;
+
   }
   
   h1 {

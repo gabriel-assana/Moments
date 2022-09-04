@@ -8,8 +8,9 @@ import { MomentComponent } from './components/pages/moment/moment.component';
 import { NewMomentComponent } from './components/pages/new-moment/new-moment.component';
 
 
-const routes: Routes = [
+export const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'moments/new', component: NewMomentComponent },
   { path: 'moments/edit/:id', component: EditMomentComponent },
   { path: 'moments/:id', component: MomentComponent },

@@ -4,6 +4,10 @@
     font-family: Cambria;
     box-sizing: border-box;
   }
+
+  main{
+    background-color:#f8e066;
+  }
   
   a {
     text-decoration: none;
