@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    background-color:#f8e066;
 }
 
 .home-container h1 {
@@ -21,6 +23,9 @@
     width: 32%;
     margin-bottom: 1em;
     text-align: center;
+
+    background-color: #143d59;
+    color: rgb(231, 231, 231);
 }
 
 .moment img {
@@ -39,12 +44,15 @@
 }
 
 a {
-    color: #dec129;
+    color: black;
     padding: 0.3em 0.6em;
+
+    background-color: #f8e066;
 }
 
 a:hover {
-    background-color: #efefef;
+    background-color: #f4b41a;
+    color: black;
 }
 
 .search-container {

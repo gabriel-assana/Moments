@@ -2,7 +2,9 @@ nav {
 display: flex;
 justify-content: space-between;
 padding: 1em;
-border-bottom: 1px solid #777;
+border-bottom: 1px solid #f8e066;
+
+background-color: #f4b41a
 }
 
 .brand, 
@@ -22,7 +24,7 @@ transition: 0.4s;
 }
 
 .brand:hover > h2 {
-color: #dec129;
+color: #143d59;
 }
 
 .links li {
@@ -34,10 +36,15 @@ list-style: none;
     padding: 0.1em 0.3em;
 }
 
+a:hover {
+  color: white;
+}
+
 #add a {
-color: #dec129;
+color: white;
 }
 
 #add a:hover {
-background-color: #efefef;
+background-color: #143d59;
+border-radius: 20%;
 }
